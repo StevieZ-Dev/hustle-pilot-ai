@@ -21,7 +21,8 @@ import {
   Calendar,
   BarChart3,
   Shield,
-  Target
+  Target,
+  Star // <--- Added the missing Star icon here
 } from 'lucide-react';
 
 // --- MOCK DATA GENERATORS (The "Biz Consultant" Brain) ---
@@ -41,6 +42,7 @@ const generateMockResults = (query: string) => [
     description: 'Arbitrage model. Find clients needing this skill, outsource the labor, keep the margin. Infinite scalability.',
     potential: '$10k+ / month',
     tools: ['Shopify', 'LinkedIn Sales Nav'],
+    rating: 4.9, // Added rating
   },
   {
     type: 'PASSIVE',
@@ -48,6 +50,7 @@ const generateMockResults = (query: string) => [
     description: 'Build once, sell forever. Package your knowledge into a downloadable asset or video series.',
     potential: 'Passive Recurring',
     tools: ['Teachable', 'ClickFunnels'],
+    rating: 4.7, // Added rating
   },
 ];
 
