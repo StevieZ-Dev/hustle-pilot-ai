@@ -474,7 +474,7 @@ export default function Home() {
                  {/* Hero Image Display */}
                  <div className="mt-20 w-full rounded-2xl overflow-hidden border border-slate-800 shadow-2xl relative group">
                     <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-transparent to-transparent z-10"></div>
-                    <img src="/hero.jpg" alt="Dashboard" className="w-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-1000" />
+                    <img src="/hero.png" alt="Dashboard" className="w-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-1000" />
                     
                     {/* Floating HUD Elements */}
                     <div className="absolute bottom-10 left-10 z-20 hidden md:block">
