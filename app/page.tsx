@@ -387,8 +387,8 @@ export default function Home() {
           <div className="flex justify-between h-20">
             <div className="flex items-center gap-3 cursor-pointer group" onClick={goHome}>
               <div className="w-10 h-10 rounded-xl overflow-hidden shadow-lg border border-slate-700 group-hover:border-amber-500 transition-colors">
-                 {/* Ensure logo.jpg is in your public folder */}
-                 <img src="/rocket-logo.jpg"alt="Pilot" className="w-full h-full object-cover" />
+                 {/* Ensure logo.png is in your public folder */}
+                 <img src="/rocket-logo.png"alt="Pilot" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col">
                 <span className="font-black text-2xl tracking-tighter leading-none text-white">Hustle<span className="text-amber-500">Pilot</span></span>
